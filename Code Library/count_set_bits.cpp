@@ -11,7 +11,6 @@ unsigned int countSetBits(unsigned int n)
     } 
     return count; 
 } 
-
 int main() 
 { 
     int i = 9; 
