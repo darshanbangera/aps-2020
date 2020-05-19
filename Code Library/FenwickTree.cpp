@@ -31,7 +31,6 @@ void main()
     cin>>a[i];
     update(i,a[i]);
   }
-  
   cin>>lower>>upper;
   sum = query(upper) - query(lower);
 }
