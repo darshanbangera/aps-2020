@@ -1,0 +1,19 @@
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the staircase function below.
+def staircase(n):
+    for i in range(n):
+        b = '#'*(i+1)
+        a = ' '*(n-i-1)
+        if(i==(n-1)):
+            a=''
+            print(b,sep='')
+        else:
+            print(a,b,sep='')
+if __name__ == '__main__':
+    n = int(input())
+    staircase(n)
